@@ -1,0 +1,23 @@
+@import "reset.css";
+@import "display.css";
+
+@import "input.css";
+
+@import "animation.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=PT+Sans+Narrow:wght@400;700&display=swap");
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.h1-clock {
+  font-size: 300px;
+  font-weight: 700;
+  color: aliceblue;
+}
