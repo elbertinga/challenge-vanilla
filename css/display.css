@@ -75,10 +75,25 @@ input:focus {
   outline: none;
 }
 
-#weather {
+#weather span {
   color: white;
   font-size: 30px;
   font-weight: bolder;
   background-color: rgba(0, 255, 255, 0.7);
   border-radius: 5px;
+
+  /* height: inherit; */
+  align-items: flex-end;
+}
+
+#weather,
+#todo-list {
+  display: flex;
+  height: inherit;
+  align-items: flex-end;
+}
+
+#todo-list {
+  flex-direction: column;
+  justify-content: flex-end;
 }
